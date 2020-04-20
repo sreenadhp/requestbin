@@ -57,3 +57,22 @@ Contributors
 ------------
  * Barry Carlyon <barry@barrycarlyon.co.uk>
  * Jeff Lindsay <progrium@gmail.com>
+++++++++++++++++++++++++++++++++++++
+
+
+Source: https://blog.polydojo.com/2018/03/webdev-bye-requestbin-hello-alternatives.html
+> One could still self-host RequestBin; and that is pretty sweet. But when you're tasked with setting up webhooks, do you really also want to be in-charge of provisioning the webhook-testing infrastructure?
+Alternatives
+* Webhook Inbox is created by the folks at Fanout.io.   Includes live reloads and a beautiful UI. We've found the tool to be very reliable.
+* Hookbin, by the creators of Kraken.io.
+  Seems to include live uploads, but we were often unable to inspect requests.
+* Webhook Tester by @fredsted.
+  UI could be improved, but UX is awesome. Live reloads, pretty-JSON option, header-hiding etc.
+
+Other Helpful Links
+* UltraHook, created by the folks behind Enchant.
+  A tool for testing incoming webhooks on localhost. Involves a ruby gem and an API key.
+* MockBin by Mashape/Kong.
+  Tool for setting endpoints that spit-out a fixed response. (We were unable to try it out.)
+* HTTPBin.org.
+  Neat set of utility endpoints that'll prove useful while developing your next project.
